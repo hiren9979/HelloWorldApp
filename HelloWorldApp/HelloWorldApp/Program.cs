@@ -10,13 +10,13 @@
             num1 = Convert.ToInt32(Console.ReadLine());
             num2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("multiplication of " + num1 + " and " + num2 + " is : " + multiply(num1, num2));
+            Console.WriteLine("multiplication of " + num1 + " and " + num2 + " is : " + sum(num1, num2));
         }
 
         //function for sum of two numbers
-        public static int multiply(int num1,int num2)
+        public static int sum(int num1,int num2)
         {
-            int total =  num1 * num2;
+            int total =  num1 + num2;
             return total;
         }
     }
